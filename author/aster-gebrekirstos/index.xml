@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aster Gebrekirstos | Sanjeeb Bhattarai</title>
+    <link>http://localhost:4321/author/aster-gebrekirstos/</link>
+      <atom:link href="http://localhost:4321/author/aster-gebrekirstos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aster Gebrekirstos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sanjeeb Bhattarai, 2026</copyright><lastBuildDate>Fri, 01 Jul 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/img/social.png</url>
+      <title>Aster Gebrekirstos</title>
+      <link>http://localhost:4321/author/aster-gebrekirstos/</link>
+    </image>
+    
+    <item>
+      <title>Supporting Multifunctionality through Realistic, Conditional and Voluntary Actions</title>
+      <link>http://localhost:4321/publications/multifunctess/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/multifunctess/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
