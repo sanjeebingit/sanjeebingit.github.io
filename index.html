@@ -5303,16 +5303,23 @@ clear: both;
       
     
 
-    <div class="mb-3">
-  <form action="https://api.web3forms.com/submit" method="POST">
-  <fieldset><legend>Get connect to Sanjeeb:</legend>
-  <input type="hidden" name="access_key" value="2e1ac398-6cf2-464c-9fbd-9cfd23fcbb30">
-  <label for="name">Your Name: </label><input type="text" name="name" placeholder="e.g. John Doe" required></label>
-  <label for="email">Your Emain: <input type="email" name="email" placeholder="e.g. 'your@email.com'" required></label>
-  <label>Your Message: <textarea name="message" placeholder="Hi Sanjeeb, let's get connected bla bla bla...!" required></textarea></label>
-  <button type="submit">Submit Form</button>
-  </fieldset>	  
-</form>
+<div class="mb-3">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="2e1ac398-6cf2-464c-9fbd-9cfd23fcbb30">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Your name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
     </div>
     
 
